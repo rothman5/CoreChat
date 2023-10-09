@@ -1,5 +1,0 @@
-plugin-prefix: '&f[&6CoreChat&f]'
-messages:
-  usage: '&cUsage: /corechat reload'
-  reload-pass: '&aConfig files reloaded successfully.'
-  reload-fail: '&cAn error occurred while reloading the config files.'

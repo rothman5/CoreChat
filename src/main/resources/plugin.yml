@@ -1,11 +1,12 @@
 name: CoreChat
 version: '${project.version}'
-main: me.rothman.corechat.CoreChat
-api-version: 1.19
+main: me.rothman5.corechat.CoreChat
+api: '1.17'
+api-version: '1.17'
 depend: [ PlaceholderAPI ]
-authors: [ rothman ]
-description: Chat formatting plugin with customizable hoverable and clickable text.
+authors: [ rothman5 ]
+description: '${project.description}'
 commands:
   corechat:
     description: Master command for this plugin.
-    aliases: cc
+    aliases: [ 'cc' ]

@@ -1,0 +1,64 @@
+default:
+  priority: 1 # lowest priority
+  chat-color: '&7'
+  chat-prefix: '&8» '
+  permission: 'corechat.default'
+  prefix:
+    format: '%luckperms_prefix%'
+    click-command: ''
+    hover-message:
+      - '&fBalance: &a&o$%vault_eco_balance%'
+  name:
+    format: '%player_name% '
+    click-command: '/msg %player_name% '
+    hover-message:
+      - '&fBalance: &a&o$%vault_eco_balance%'
+      - '&7Click me to PM!'
+  suffix:
+    format: '%luckperms_suffix%'
+    click-command: ''
+    hover-message: []
+
+mod:
+  priority: 99
+  chat-color: '&b'
+  chat-prefix: '&8» '
+  permission: 'corechat.mod'
+  prefix:
+    # format: '&8[&3Mod&8] %luckperms_prefix%'
+    format: '%luckperms_prefix%'
+    click-command: ''
+    hover-message:
+      - '&fBalance: &a&o$%vault_eco_balance%'
+  name:
+    format: '%player_name% '
+    click-command: '/msg %player_name% '
+    hover-message:
+      - '&fBalance: &a&o$%vault_eco_balance%'
+      - '&7Click me for help!'
+  suffix:
+    format: '%luckperms_suffix%'
+    click-command: ''
+    hover-message: []
+
+admin:
+  priority: 100
+  chat-color: '&c'
+  chat-prefix: '&8» '
+  permission: 'corechat.admin'
+  prefix:
+    # format: '&8[&4Admin&8] %luckperms_prefix%'
+    format: '%luckperms_prefix%'
+    click-command: ''
+    hover-message:
+      - '&fBalance: &a&o$%vault_eco_balance%'
+  name:
+    format: '%player_name% '
+    click-command: '/msg %player_name% '
+    hover-message:
+      - '&fBalance: &a&o$%vault_eco_balance%'
+      - '&7Click me for help!'
+  suffix:
+    format: '%luckperms_suffix%'
+    click-command: ''
+    hover-message: []
